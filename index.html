@@ -34,6 +34,16 @@
       margin: 0 auto;
       border-spacing: 0;
     }
+    .date{
+      display: inline-block; 
+      vertical-align: top;
+    }
+    .nav{
+      float: right; 
+      padding-right: 20px; 
+      display: inline-block; 
+      vertical-align: top
+    }
     .section{
       width: 100%;
       font-size: 18px;
@@ -174,6 +184,20 @@
           max-width: 100px;
         }
       }
+    @media screen and (max-width: 365px) {
+        .issue{
+          text-align: center;
+        }
+        .date{
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        .nav{
+          float: none;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
   </style>
 </head>
 <body>
@@ -186,19 +210,21 @@
               <table class="section">
                 <tr>
                   <td>
-                    <table style="width: 100%; font-size: 14px;">
-                      <td>
-                        <p style="margin: 0;">Feb 01, 2022</p>
-                      </td>
-                      <td style="float: right; padding-right: 20px;">
-                        <table>
-                          <tr>
-                            <td>
-                              <a href="#" style="padding-right: 10px; text-decoration: none; color: #000000;">View Online</a>|<a href="#" style="padding-left: 10px; padding-right: 10px; text-decoration: none; color: #000000;">Sign Up</a>|<a href="#" style="padding-left: 10px; text-decoration: none; color: #000000;">Shop</a>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
+                    <table class="issue" style="width: 100%; font-size: 14px;">
+                      <tr>
+                        <td class="date">
+                          <p style="margin: 0;">Feb 01, 2022</p>
+                        </td>
+                        <td class="nav">
+                          <table>
+                            <tr>
+                              <td>
+                                <a href="#" style="padding-right: 10px; text-decoration: none; color: #000000;">View Online</a>|<a href="#" style="padding-left: 10px; padding-right: 10px; text-decoration: none; color: #000000;">Sign Up</a>|<a href="#" style="padding-left: 10px; text-decoration: none; color: #000000;">Shop</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
                     </table>
                   </td>
                 </tr>
