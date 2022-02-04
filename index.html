@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Brew</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #f9f9f9;
+      font-family: 'Lucida Grande', 'Segoe UI', Verdana, sans-serif;
+    }
+    table {
+      border-spacing: 0;
+    }
+    td {
+      padding: 0;
+    }
+    img {
+      border: 0;
+      display: block;
+    }
+    .wrapper {
+      width: 100%;
+      table-layout: fixed;
+      max-width: 750px;
+      background-color: #ffffff;
+    }
+    .main {
+      width: 100%;
+      max-width: 670px;
+      margin: 0 auto;
+      border-spacing: 0;
+    }
+    .section{
+      width: 100%;
+      font-size: 18px;
+      padding: 20px 0px;
+      border: 1px solid #e6e6e6;
+      border-radius: 20px;
+      margin-bottom: 10px;
+    }
+    .section p{
+      padding: 0 20px;
+    }
+    .section li{
+      padding: 5px 20px;
+    }
+    .leadimg{
+      width: 100%;
+    }
+    .link{
+      color: #000000;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-decoration-color: #1C7FF2;
+    }
+    .logo{
+      padding-top: 15px;
+      width: 100%;
+    }
+    .logo img{
+      margin: 10px auto;
+      max-width: 450px;
+    }
+    .category{
+      margin: 0;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #1C7FF2;
+    }
+    .heading{
+      font-size: 26px;
+      margin: 0;
+    }
+    .markets{
+      width: 100%;
+      padding-left: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e6e6e6;
+      margin-bottom: 10px;
+    }
+    .markets img{
+      max-width: 20px;
+    }
+    .markets p{
+      margin: 0;
+    }
+    .arrow{
+      width: 10%;
+    }
+    .ticker{
+      width: 20%;
+    }
+    .ticker p{
+      text-align: left;
+    }
+    .price{
+      width: 50%;
+    }
+    .price p{
+      text-align: center;
+    }
+    .change{
+      width: 20%;
+      text-align: center;
+    }
+    .change p{
+      float: right; 
+      margin-right: 20px;                          
+      padding: 10px 20px;
+      border-radius: 10px; 
+      background-color: #BEF2BA;
+      font-size: 14px;
+      width: 50%;
+    }
+    .socials{
+      padding-left: 20px;
+      padding-top: 10px;
+    }
+    .socials img{
+      max-width: 25px;
+      padding-right: 20px;
+    }
+    .btn{
+      background-color: #1C7FF2;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: bolder;
+      padding: 15px 20px;
+      border-radius: 8px;
+    }
+    .end{
+      width: 100%;
+      border-bottom: 1px solid #e6e6e6;
+      margin-bottom: 50px;
+    }
+    .end p{
+      padding-left: 20px;
+    }
+    .end img{
+      padding-left: 20px;
+    }
+    .end ul{
+      margin-left: 20px;
+    }
+    .footer{
+      width: 100%;
+    }
+    .footer .link{
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+    .footer p{
+      font-size: 14px;
+      padding: 0px 2px;
+    }
+    @media screen and (max-width: 480px) {
+        .logo img{
+          max-width: 280px;
+        }
+        .markets{
+          font-size: 12px;
+        }
+      }
+  </style>
+</head>
+<body>
+  <table class="wrapper">
+    <tr>
+      <td>
+        <table class="main">
+          <tr>
+            <td>
+              <table class="section">
+                <tr>
+                  <td>
+                    <table style="width: 100%; font-size: 14px;">
+                      <td>
+                        <p style="margin: 0;">Feb 01, 2022</p>
+                      </td>
+                      <td style="float: right; padding-right: 20px;">
+                        <table>
+                          <tr>
+                            <td>
+                              <a href="#" style="padding-right: 10px; text-decoration: none; color: #000000;">View Online</a>|<a href="#" style="padding-left: 10px; padding-right: 10px; text-decoration: none; color: #000000;">Sign Up</a>|<a href="#" style="padding-left: 10px; text-decoration: none; color: #000000;">Shop</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="logo">
+                    <a href="#">
+                      <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/5_LCKtrvUkJq.png" alt="">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table style="margin: 0 auto;">
+                      <tr>
+                        <td>
+                          <p style="padding-right: 10px; font-weight: 500; text-transform: uppercase; font-size: 14px;">TOGETHER WITH</p>
+                        </td>
+                        <td>
+                          <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/dXqTnxE22rEi.png" alt="" width="133">
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><strong>Good morning.</strong> Welcome to February and Happy Lunar New Year!</p>
+                    <p>Today, more than 1 billion people around the world will celebrate the start of the Year of the Tiger. Those born in Tiger years are said to be assertive, strong, passionate, maybe a bit arrogant, and competitive.</p>
+                    <p>As if we needed any more evidence that Rihanna's kid will take over the world.</p>
+                    <p>—<i>Max Knoblauch, Neal Freyman, Matty Merritt</i></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="section" style="padding: 0px;">
+                <tr>
+                  <td>
+                    <p class="category" style="padding: 20px; border-bottom: 1px solid #e6e6e6; margin-bottom: 10px;">Markets</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table class="markets">
+                      <tr>
+                        <td class="arrow">
+                          <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/QLeCEV2DAD_B.png" alt="">
+                        </td>
+                        <td class="ticker">
+                          <p><strong>Nasdaq</strong></p>
+                        </td>
+                        <td class="price">
+                          <p><strong>14,239.88</strong></p>
+                        </td>
+                        <td class="change">
+                          <p><strong>+3.41%</strong></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table class="markets">
+                      <tr>
+                        <td class="arrow">
+                          <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/QLeCEV2DAD_B.png" alt="">
+                        </td>
+                        <td class="ticker">
+                          <p><strong>S&P</strong></p>
+                        </td>
+                        <td class="price">
+                          <p><strong>4,515.55</strong></p>
+                        </td>
+                        <td class="change">
+                          <p><strong>+1.89%</strong></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table class="markets">
+                      <tr>
+                        <td class="arrow">
+                          <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/QLeCEV2DAD_B.png" alt="">
+                        </td>
+                        <td class="ticker">
+                          <p><strong>Dow</strong></p>
+                        </td>
+                        <td class="price">
+                          <p><strong>35,131.86</strong></p>
+                        </td>
+                        <td class="change">
+                          <p><strong>+1.17%</strong></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table class="markets">
+                      <tr>
+                        <td class="arrow">
+                          <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/QLeCEV2DAD_B.png" alt="">
+                        </td>
+                        <td class="ticker">
+                          <p><strong>10-Year</strong></p>
+                        </td>
+                        <td class="price">
+                          <p><strong>1.781%</strong></p>
+                        </td>
+                        <td class="change">
+                          <p><strong>+1.0bps</strong></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table class="markets">
+                      <tr>
+                        <td class="arrow">
+                          <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/QLeCEV2DAD_B.png" alt="">
+                        </td>
+                        <td class="ticker">
+                          <p><strong>Bitcoin</strong></p>
+                        </td>
+                        <td class="price">
+                          <p><strong>$38,487.32</strong></p>
+                        </td>
+                        <td class="change">
+                          <p><strong>+1.05%</strong></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table class="markets">
+                      <tr>
+                        <td class="arrow">
+                          <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/QLeCEV2DAD_B.png" alt="">
+                        </td>
+                        <td class="ticker">
+                          <p><strong>Spotify</strong></p>
+                        </td>
+                        <td class="price">
+                          <p><strong>$196.26</strong></p>
+                        </td>
+                        <td class="change">
+                          <p><strong>+13.46%</strong></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p style="font-size: 15px; margin: 0; padding-left: 15px;">*Stock data as of market close, cryptocurrency data as of 6:00pm ET. <a href="" class="link" style="text-decoration-thickness: 1px;">Here's what these numbers mean.</a></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>
+                        <p><strong>Markets:</strong> Well, let's not do that again. Despite plenty of gains yesterday, the S&P and Nasdaq wrapped up their <a href="" class="link">worst month</a> since March 2020 (history suggests <a href="" class="link">stocks will rebound</a>, though). Spotify shares boomed a day after it released new measures around Covid misinformation in response to its Joe Rogan kerfuffle.</p>
+                      </li>              
+                      <li>
+                        <p><strong>Geopolitics:</strong> The US and Russia <a href="" class="link">traded barbs</a> at a UN Security Council meeting—the first session where all powers openly discussed Russia's military buildup at the Ukraine border.</p>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>            
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="section">
+                <tr>
+                  <td>
+                    <p class="category">Gaming</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="heading"><strong>Sony goes Bungie jumping</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 10px;">
+                    <a href="">
+                      <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/9lSJG2-RpzLE.webp" alt="" class="leadimg">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p style="font-size: 14px; margin-left: -10px; margin-top: 0; padding-top: 5px;"><i>Bungie</i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>January was a full-out sprint for video game industry mergers, with major players jostling for a shot to have the best console money can’t buy due to supply issues. The latest: Sony announced plans to <a href="" class="link">buy Bungie</a> , the studio responsible for the creation of both Halo and Destiny, for $3.6 billion.</p>
+                    <p>The deal is not only notable for Bungie’s top-class IP offerings, but also for being another thrilling entry into the strange saga of the studio. Bungie was first acquired by Microsoft in 2000, becoming a household name and helping put Xbox on the map with Halo. After splitting from Microsoft in 2007, Bungie eventually entered a 10-year publishing deal with Activision Blizzard (which it left in 2019). Microsoft announced plans to buy Activision Blizzard earlier in January for a whopping $68.7 billion.</p>
+                    <p>Not to be forgotten in last month's gaming acquisition-athon, Take-Two Interactive agreed to purchase <i>Farmville</i> creator Zynga for $12.7 billion. Where’s Nintendo in all this? Stuck on the sand kingdom level of <i>Super Mario Odyssey</i> and screaming at each other.</p>
+                    <p style="font-size: 22px;"><strong>So what happens now?</strong></p>
+                    <p>Well, Xbox and PC <i>Destiny</i> fans can breathe a sigh of relief—according to Sony, the Bungie acquisition isn’t about creating new, exclusive content for Playstation (at least for now): Bungie will remain a multiplatform studio with the option to self-publish its games. Microsoft made a similar announcement for its Activision deal, confirming that it plans to continue supporting Activision Blizzard games on competing platforms (as it’s done with <i>Minecraft</i>).</p>
+                    <p>While these cross-platform friendly moves could be seen as the dawning of a harmonious new era in the console wars, they more likely point to the industry’s increased focus on the subscription model.</p>
+                    <ul>
+                      <li>The Xbox Game Pass features over 400 games users can download and play for one monthly fee. Microsoft says the service has 25 million subscribers.</li>
+                      <li><i>Destiny 2</i>, Bungie’s most popular title, is free to play but offers season passes and expansions. The game has drawn in 20 million players since 2019.</li>
+                      <li>In December, Bloomberg reported that Sony is planning a new subscription service to compete with Game Pass.</li>
+                    </ul>
+                    <p>For now, subscription services and popular IP offer Sony and Microsoft a shield against the battered supply chain.—<i>MK</i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table class="socials">
+                      <tr>
+                        <td>
+                          <a href="https://www.facebook.com/sharer.php">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/cYDZkkxKq9cd.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://twitter.com/intent/tweet">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/QOXgBBprf_Hr.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://www.linkedin.com/shareArticle">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/snt5Hs2edl-N.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://www.morningbrew.com/">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/pCNZpCb2wouV.png" alt="">
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="section">
+                <tr>
+                  <td>
+                    <p class="category">Media</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="heading"><strong>It's the end of the Wordle as we know it</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 10px;">
+                    <a href="">
+                      <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/R-iGJEywumL1.webp" alt="" class="leadimg">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p style="font-size: 14px; margin-left: -10px; margin-top: 0; padding-top: 5px;"><i>Wordle</i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>And we feel…weird?</p>
+                    <p>In the second-biggest gaming deal of the day (but first in our hearts), the word puzzle sensation Wordle was <a href="" class="link">acquired</a> by the New York Times.</p>              
+                    <p>The purchase is simultaneously a shock—considering how “grassroots” the Wordle experience felt—and also not that shocking at all. The NYT has been <a href="" class="link">vocal</a> about investing in its puzzles business, and now it adds this viral phenomenon to a heavyweight roster that already includes Crossword and Spelling Bee. The Times said the price for Wordle was in the low seven figures.</p>
+                    <p><strong>Not a bad haul for a pandemic hobby.</strong> Created by software engineer Josh Wardle to help his puzzle-loving partner kill time during Covid, Wordle has exploded in recent months.</p>
+                    <ul>
+                      <li>The game was played by just 90 people on Nov. 1, per the NYT. Fast forward to today, and millions of people play it on the reg.</li>
+                      <li>Wordle spawned numerous <a href="" class="link">spinoffs</a>, has been <a href="" class="link">leveraged by brands</a> for marketing purposes, and was <a href="" class="link">crocheted</a> into a pillow.</li>
+                    </ul>
+                    <p>The only news that matters for Wordle fans: The game will remain initially free for new and existing players, the NYT said.—<i>NF</i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table class="socials">
+                      <tr>
+                        <td>
+                          <a href="https://www.facebook.com/sharer.php">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/cYDZkkxKq9cd.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://twitter.com/intent/tweet">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/QOXgBBprf_Hr.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://www.linkedin.com/shareArticle">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/snt5Hs2edl-N.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://www.morningbrew.com/">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/pCNZpCb2wouV.png" alt="">
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="section">
+                <tr>
+                  <td>
+                    <p class="category">Sports</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="heading"><strong>Beijing wants the biggest bubble</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 10px;">
+                    <a href="">
+                      <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/XAS-mKsGTmUt.webp" alt="" class="leadimg">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p style="font-size: 14px; margin-left: -10px; margin-top: 0; padding-top: 5px;"><i>Beijing Youth Daily/Getty Images</i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>The 2022 Beijing Olympics must be taking notes from your mom after you broke curfew sophomore year. Ahead of the start of the games on Friday, China has created the most aggressive “<a href="" class="link">closed loop</a>” Covid bubble of the pandemic.</p>
+                    <p>It’s kinda like the NBA’s bubble in Orlando in 2020, but supersized. The Olympics bubble (which actually consists of three interconnected bubbles) will host about 11,000 international athletes, guests, and other participants, as well as thousands of Chinese volunteers and staff responsible for monitoring everyone’s movements within it.</p>              
+                    <ul>
+                      <li>The game was played by just 90 people on Nov. 1, per the NYT. Fast forward to today, and millions of people play it on the reg.</li>
+                    </ul>
+                    <p><strong>Zoom out:</strong> China’s intense Covid bubble is just one manifestation of its attempt to <a href="" class="link">assert complete control</a> over the upcoming Olympics. Authorities have also detained activists in their homes, shut down social media accounts of critics, and declared that “any behavior or speech that is against the Olympic spirit” will be subject to punishment.—<i>MM</i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table class="socials">
+                      <tr>
+                        <td>
+                          <a href="https://www.facebook.com/sharer.php">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/cYDZkkxKq9cd.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://twitter.com/intent/tweet">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/QOXgBBprf_Hr.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://www.linkedin.com/shareArticle">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/snt5Hs2edl-N.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://www.morningbrew.com/">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/pCNZpCb2wouV.png" alt="">
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="section">
+                <tr>
+                  <td>
+                    <p class="category">TOGETHER WITH NOWRX</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="heading"><strong>A tech-powered prescription for retail pharmacy</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 10px;">
+                    <a href="">
+                      <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/BeypKnevoj6w.jpeg" alt="" class="leadimg">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>What, exactly, does the future of retail pharmacy look like? Try this: Free, same-day medication delivery and efficiency-enhancing technology.</p>
+                    <p><a href="" class="link">NowRx</a> has designed a tech-powered pharmacy with proprietary “QuickFill” software and robotics that’s been so effective, their revenue grew by nearly 90% YoY from 2019 to 2020.</p>              
+                    <p>And if you’re sensing a significant investment opportunity here, it might be time to trust your gut. </p>
+                    <p><a href="" class="link">Last year, the company achieved over $26M in annualized revenue</a>. And in 2022, they’ve already announced three new locations with a goal of 10 more before the end of year—alongside plans to expand their popular Telehealth service that grew over 1,200% in 2021.</p>
+                    <p>With that kind of growth, this tech-powered pharmacy is one investment you might wanna get in on <i>stat</i>.</p>
+                    <p><a href="" class="link">Learn how you can invest and get a dose of NowRx shares today</a>.</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="section">
+                <tr>
+                  <td>
+                    <p class="category">Grab Bag</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="heading"><strong>Key performance indicators</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 10px;">
+                    <a href="">
+                      <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/B-mDuB_lkedR.webp" alt="" class="leadimg">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p style="font-size: 14px; margin-left: -10px; margin-top: 0; padding-top: 5px;"><i>Maro Sironasian/AFP via Getty Images</i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><strong>Stat</strong>: <i>The Complete Maus</i>, the first and second installments of the Pulitzer Prize-winning graphic novel about the Holocaust, <a href="" class="link">shot up</a> to the top of the Amazon bestseller list yesterday morning. Interest in Maus has soared since a Tennessee school board banned the book from its curriculum.</p>
+                    <p><strong>Quote</strong>: “I’ve done a lot of work on this and 5k is not enough.”</p>              
+                    <p>19-year-old Jack Sweeney, who runs a Twitter account that tracks Elon Musk’s private jet, told Insider why he <a href="" class="link">turned down</a> Musk’s offer of $5,000 to shut down the account. Musk has said that accounts that followed his movements were “becoming a security issue,” but Sweeney isn’t moved—he wants $50k from the tech mogul.</p>
+                    <p><strong>Read:</strong> The moral calculations of a billionaire. (<a href="" class="link">Washington Post</a>)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table class="socials">
+                      <tr>
+                        <td>
+                          <a href="https://www.facebook.com/sharer.php">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/cYDZkkxKq9cd.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://twitter.com/intent/tweet">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/QOXgBBprf_Hr.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://www.linkedin.com/shareArticle">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/snt5Hs2edl-N.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://www.morningbrew.com/">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/pCNZpCb2wouV.png" alt="">
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="section">
+                <tr>
+                  <td>
+                    <p class="category">Crypto</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="heading"><strong>Meet the next crypto giant</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Cryptocurrency exchange FTX is now <a href="" class="link">valued at $32</a> billion after its latest funding round, putting the three-year-old company in the ranks of the richest private startups in the world. It was worth just $1.2 billion in 2020.</p>
+                    <p>Here’s a quick cheat sheet to get you up to speed.</p>
+                    <p><strong>What does it offer?</strong> FTX calls itself a crypto exchange “built by traders, for traders.” It’s where you can buy or sell derivatives like crypto futures, options, leveraged tokens, and more. It’s not available in the US, but it has an affiliate that is: FTX U.S., which is worth $8 billion on its own.</p>
+                    <p><strong>Why does it seem familiar?</strong> Probably because FTX has been on a marketing blitz, buying the naming rights to the Miami Heat’s arena and partnering with celebs like Tom Brady and Gisele Bündchen. It’ll also have a commercial spot in the upcoming Super Bowl.</p>              
+                    <p><strong>Who’s in charge?</strong> Sam Bankman-Fried, FTX’s CEO, is a name to know. He lives in the Bahamas, wears T-shirts and shorts, is 29 years old, and has a net worth of more than $22 billion.</p> 
+                    <p><strong>Big picture:</strong> Crypto prices have taken a big tumble in recent months, and the biggest digital token—bitcoin—is down ~43% from its November peak. Bankman-Fried and his legions of investors think this is a temporary stumble in the sector’s upward march.—<i>NF</i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table class="socials">
+                      <tr>
+                        <td>
+                          <a href="https://www.facebook.com/sharer.php">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/cYDZkkxKq9cd.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://twitter.com/intent/tweet">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/QOXgBBprf_Hr.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://www.linkedin.com/shareArticle">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/snt5Hs2edl-N.png" alt="">
+                          </a>
+                        </td>
+                        <td>
+                          <a href="https://www.morningbrew.com/">
+                            <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/pCNZpCb2wouV.png" alt="">
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="section">
+                <tr>
+                  <td>
+                    <p class="category">WHAT ELSE IS BREWING</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li><a href="" class="link">British PM Boris Johnson</a> apologized over lockdown parties among his staff following an investigation into what’s become known as “Partygate.” Johnson said he’d make changes to his team and that his leadership squad needs to “look ourselves in the mirror and learn.”</li>
+                      <li><a href="" class="link">At least six</a> historically Black colleges and universities received bomb threats yesterday morning.</li>
+                      <li><a href="" class="link">More than 100,000 Americans</a> died from diabetes in 2021, which is the second straight year deaths from diabetes have hit six figures.</li>
+                      <li><a href="" class="link">Employers</a> are offering expensive fertility benefits, including egg freezing, in an attempt to attract and retain workers in this tight labor market.</li>
+                    </ul>
+                  </td>
+                </tr>                
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="section">
+                <tr>
+                  <td>
+                    <p class="category">Brew's Bets</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><strong>Never fear, comprehensive home security is here!</strong> With SimpliSafe, you get professional 24/7 monitoring for less than $1 a day, plus sensors and cameras that cover every window, room, and door to make your home more invincible than a caped crusader. <a href="" class="link">Build your perfect system here</a>.*</p>
+                    <p><strong>Crypto-curious?</strong> Read about why crypto matters—and how you can join the fray—in our <a href="" class="link">Crypto Crash Course</a>, sponsored by eToro.</p>
+                    <p><strong>Lunar New Year recipes:</strong> If you want to take this celebration into the kitchen, you can find good recipe lists <a href="" class="link">here</a>, <a href="" class="link">here</a>, and <a href="" class="link">here</a>.</p>
+                    <p><strong>Trillionaire Mindset:</strong> We sat down with the hosts of the chaotic, hilarious new finance podcast to talk about skepticism, financial advice, and whale removal. <a href="" class="link">Read the interview</a>.</p>
+                    <p><strong>What if the IRS had a TikTok?</strong> <a href="" class="link">It would probably look something like this</a>.</p>
+                    <p style="font-size: 14px;">*This is sponsored advertising content</p>
+                  </td>
+                </tr>                
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="section">
+                <tr>
+                  <td>
+                    <p class="category">Games</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="heading"><strong>The puzzle section</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><strong>Brew Mini:</strong> Pour yourself a steaming cup of coffee then <a href="" class="link">dive into today’s Mini</a>, whose theme is winter weather.</p>
+                    <p style="font-size: 22px;"><strong>Geography trivia</strong></p>
+                    <p>With 267,570, Sweden has the most of these out of any country in the world.</p>
+                  </td>
+                </tr>                
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="section">
+                <tr>
+                  <td>
+                    <p class="category">From the Crew</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table>
+                      <tr>
+                        <td>
+                          <p class="heading" ><strong>Hot new swag for Valentine’s Day</strong></p>
+                        </td>
+                        <td>
+                          <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/esuo8TYahzJB.png" alt="" width="18" style="margin-left: -10px;">
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 10px;">
+                    <a href="">
+                      <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/PvoNPOUuKo27.webp" alt="" class="leadimg">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>If your version of pillow talk typically includes subjects like crypto, stocks, or a guy named Elon, we've got the perfect Valentine's Day gifts for you.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 20px;">
+                    <a href="" class="btn"><strong>Shop the collection</strong></a>
+                  </td>
+                </tr>               
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="section">
+                <tr>
+                  <td>
+                    <p class="category">Answer</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Islands. But less than 1,000 of them are inhabited.</p>
+                  </td>
+                </tr>               
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="end">
+                <tr>
+                  <td>
+                    <p>Written by <a href="" class="link">Neal Freyman</a>, <a href="" class="link">Matty Merritt</a>, and <a href="" class="link">Max Knoblauch</a></p>
+                    <p>Was this email forwarded to you? Sign up <a href="" class="link">here</a>.</p>
+                    <p style="text-transform: uppercase;"><strong>WANT MORE BREW?</strong></p>
+                    <p><i>Industry news, with a sense of humor →</i></p>
+                    <ul>
+                      <li><a href="" class="link">HR Brew</a>: analysis of the employee-employer relationship</li>
+                      <li><a href="" class="link">Marketing Brew</a>: the buzziest happenings in marketing and advertising</li>
+                    </ul>
+                    <p><i>Tips for smarter living →</i></p>
+                    <ul>
+                      <li><a href="" class="link">Money Scoop</a>: your personal finance upgrade</li>
+                    </ul>
+                    <table style="margin-top: -15px;">
+                      <tr>
+                        <td>
+                          <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/AGsr91xp9UQw.png" alt="" width="20" style="padding-right: 10px;">
+                        </td>
+                        <td>
+                          <p><i>Podcasts → <a href="" class="link">Business Casual</a> and <a href="" class="link">Founder's Journal</a></i></p>
+                        </td>
+                      </tr>
+                    </table>
+                    <table style="margin-top: -15px;">
+                      <tr>
+                        <td>
+                          <img src="https://images.milledcdn.com/2022-02-01/rDiypJM2hfOl8K1p/gdQ_XdW9ockh.png" alt="" width="20" style="padding-right: 10px;">
+                        </td>
+                        <td>
+                          <p><i><a href="" class="link">YouTube</a></i></p>
+                        </td>
+                      </tr>
+                    </table>
+                    <p style="margin-top: -6px;"><i>Accelerate Your Career →</i></p>
+                    <ul style="margin-top: -10px;">
+                      <li><a href="" class="link">MB/A</a>: virtual 8-week program designed to broaden your skill set</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr style="text-align: center; line-height: .5;">
+            <td>
+              <table class="footer">
+                <tr>
+                  <td>
+                    <table style="margin: -40px auto 0 auto;">
+                      <tr>
+                        <td>
+                          <p>
+                            <a href="" class="link">Advertise</a>
+                          </p>
+                        </td>
+                        <td>
+                          <p>//</p>
+                        </td>
+                        <td>
+                          <p>
+                            <a href="" class="link">Careers</a>
+                          </p>
+                        </td>
+                        <td>
+                          <p>//</p>
+                        </td>
+                        <td>
+                          <p>
+                            <a href="" class="link">Shop</a>
+                          </p>
+                        </td>
+                        <td>
+                          <p>//</p>
+                        </td>
+                        <td>
+                          <p>
+                            <a href="" class="link">FAQ</a>
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p style="color: #aaaaaa; ">Update your email preferences or unsubscribe <a href="" style="color: #1C7FF2;">here</a>.</p>
+                    <p style="color: #aaaaaa;">View our privacy policy <a href="" style="color: #1C7FF2;">here</a>.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p style="color: #aaaaaa;">Copyright © 2022 Morning Brew. All rights reserved.</p>
+                    <p style="color: #aaaaaa;">22 W 19th St, 8th Floor, New York, NY 10011</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
